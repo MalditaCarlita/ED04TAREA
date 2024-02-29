@@ -70,7 +70,9 @@ public class CCuenta {
         this.tipoInterés = tipoInterés;
     }
 
-
+    /**
+     *
+     */
     public CCuenta()
     {
     }
@@ -101,6 +103,7 @@ public class CCuenta {
     /**
      * 
      * @param cantidad. Valor en coma flotante (double) de dinero a ingresar.
+     * @throws java.lang.Exception
      *  
      */
     public void ingresar(double cantidad) throws Exception
@@ -113,6 +116,7 @@ public class CCuenta {
     /**
      * 
      * @param cantidad. Valor en coma flotante (double) de dinero a retirar.
+     * @throws java.lang.Exception
      * 
      */
     public void retirar(double cantidad) throws Exception
